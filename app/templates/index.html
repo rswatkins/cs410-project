@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p> Welcome to the index page </p>
+
+<div class="card-columns">
+    <div class="card bg-light">
+        <div class="card-body">
+            <div class="row">
+                <h3 class="card-title"> Add data set </h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                    ante.</p>
+            </div>
+            <div class="row">
+                <form>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label" for="customFile">Choose file</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="card bg-light">
+        <div class="card-body">
+            <div class="row">
+                <h3 class="card-title"> Use current data set </h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                    ante.</p>
+            </div>
+            <div class="row">
+                <form>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
